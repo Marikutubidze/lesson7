@@ -60,7 +60,7 @@ li > a {
 
 /* button */
 
-.button {
+.waveme-button {
     width: 264px;
     height: 77px;
     background-color: #3d37f1;
@@ -72,7 +72,7 @@ li > a {
     color: #ffffff;
 }
 
-.button > img {
+.waveme-button > img {
     margin-right: 24px;
 }
 
@@ -181,4 +181,9 @@ li > a {
 .block-wrapper:last-child {
     background-color: #dfa871; 
     background-image: linear-gradient(to bottom, #ff8088, #984141);
+}
+
+.readmore-button:hover {
+    background-color: #ffffff;
+    color: #4b647e;
 }
