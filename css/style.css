@@ -153,6 +153,14 @@ li > a {
     border-radius: 50px;
 }
 
+/* hover effect */
+.readmore-button:hover {
+    background-color: #ffffff;
+    color: #4b647e;
+}
+
+/* background gradients */
+
 .block-wrapper:first-child {
     background-color: #dfa871; 
     background-image: linear-gradient(to bottom, #fbba77, #dfa871);
@@ -181,9 +189,4 @@ li > a {
 .block-wrapper:last-child {
     background-color: #dfa871; 
     background-image: linear-gradient(to bottom, #ff8088, #984141);
-}
-
-.readmore-button:hover {
-    background-color: #ffffff;
-    color: #4b647e;
 }
