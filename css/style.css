@@ -1,0 +1,27 @@
+.font-lato {
+    font-family: 'lato';
+}
+
+.font-roboto {
+    font-family: 'Roboto';
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 120px 0 120px;
+}
+.nav-ul {
+    width: 542px;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li > a {
+    color: #3d37f1;
+    font-size: 20px;
+    font-weight: 900;
+}
