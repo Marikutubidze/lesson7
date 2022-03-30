@@ -70,6 +70,7 @@ li > a {
     align-items: center;
     font-size: 23px;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .waveme-button > img {
@@ -151,6 +152,7 @@ li > a {
     padding: 14px 30px;
     border: 2px solid white;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 /* hover effect */
