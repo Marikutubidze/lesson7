@@ -49,12 +49,12 @@ li > a {
     justify-content: space-around;
 }
 
-p:nth-child(1) {
+.top-section-p:nth-child(1) {
     font-size: 78px;
     font-weight: 700px;
 }
 
-p:nth-child(2) {
+.top-section-p:nth-child(2) {
     font-size: 22px;
 }
 
@@ -72,6 +72,113 @@ p:nth-child(2) {
     color: #ffffff;
 }
 
-div > img {
+.button > img {
     margin-right: 24px;
+}
+
+/* bottom section */
+
+.bottom-section {
+    padding-top: 77px;
+    background-color: #fbfcfd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-block {
+    width: 640px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 74px;
+}
+
+.top-block > :only-of-type {
+    font-size: 20px;
+    color: #3d37f1;
+}
+
+.top-block-p:first-of-type {
+    font-size: 40px;
+    color: #5a5454;
+}
+
+.top-block-p:last-of-type {
+    font-size: 18px;
+    color: #747474;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* bottom section block-list */
+
+.bottom-block {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 1170px;
+}
+
+.block-wrapper {
+    width: 371px;
+    height: 452px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    padding-top: 88px;
+    padding-bottom: 48px;
+    margin-bottom: 59px;
+}
+
+.block-wrapper > :nth-child(2) {
+    font-size: 22px;
+}
+
+.block-wrapper > :nth-child(3) {
+    width: 285px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.readmore-button {
+    font-size: 15px;
+    padding: 14px 30px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.block-wrapper:first-child {
+    background-color: #dfa871; 
+    background-image: linear-gradient(to bottom, #fbba77, #dfa871);
+}
+
+.block-wrapper:nth-child(2) {
+    background-color: #dfa871; 
+    background-image: linear-gradient(to bottom, #41eae3, #2293b7);
+}
+
+.block-wrapper:nth-child(3) {
+    background-color: #dfa871; 
+    background-image: linear-gradient(to bottom, #69529f, #463864);
+}
+
+.block-wrapper:nth-child(4) {
+    background-color: #dfa871; 
+    background-image: linear-gradient(to bottom, #4386d2, #0962c5);
+}
+
+.block-wrapper:nth-child(5) {
+    background-color: #dfa871; 
+    background-image: linear-gradient(to bottom, #a5a2f6, #564fd6);
+}
+
+.block-wrapper:last-child {
+    background-color: #dfa871; 
+    background-image: linear-gradient(to bottom, #ff8088, #984141);
 }
