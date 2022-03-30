@@ -1,3 +1,8 @@
+html, body {
+    max-width: 1921px;
+}
+
+/* fonts */
 .font-lato {
     font-family: 'lato';
 }
@@ -6,6 +11,7 @@
     font-family: 'Roboto';
 }
 
+/* header */
 header {
     display: flex;
     justify-content: space-between;
@@ -24,4 +30,48 @@ li > a {
     color: #3d37f1;
     font-size: 20px;
     font-weight: 900;
+}
+
+/* first section */
+
+.top-section {
+    height: 1170px;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+
+.top-section-left {
+    width: 602px;
+    height: 499px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+p:nth-child(1) {
+    font-size: 78px;
+    font-weight: 700px;
+}
+
+p:nth-child(2) {
+    font-size: 22px;
+}
+
+/* button */
+
+.button {
+    width: 264px;
+    height: 77px;
+    background-color: #3d37f1;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    color: #ffffff;
+}
+
+div > img {
+    margin-right: 24px;
 }
